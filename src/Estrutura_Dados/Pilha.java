@@ -1,6 +1,14 @@
 package Estrutura_Dados;
 import java.util.Stack;
 
+//Estrutura LIFO (Last In, First Out)
+//Baseada em Array ou LinkedList
+//Desfazer/refazer em editores
+//Avaliação de expressões matemáticas
+//Gerenciamento de chamadas de funções
+//Navegador web (histórico)
+//Verificação de parênteses em expressões
+
 public class Pilha {
 
     public static void StackExemplo() {

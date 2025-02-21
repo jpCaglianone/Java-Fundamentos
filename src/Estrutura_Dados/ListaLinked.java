@@ -1,6 +1,13 @@
 package Estrutura_Dados;
 import java.util.LinkedList;
 
+//Lista encadeada onde cada elemento (nó) tem referência para o próximo
+//Tamanho dinâmico
+//Quando precisa inserir/remover frequentemente no início/meio
+//Implementação de filas e pilhas
+//Quando o tamanho dos dados é dinâmico
+//Navegação bidirecional (próximo/anterior)
+
 public class ListaLinked {
 
     public static void LinkedListExemplo() {

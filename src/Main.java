@@ -15,6 +15,8 @@ public class Main {
         //Estrutura_Dados.Primitivos.PrimitivosExemplo();
 
         //Estrutura_Condicionais.IfElse.IfElseExemplo();
-        Estrutura_Condicionais.SwitchCase.SwitchCaseExemplo();
+        //Estrutura_Condicionais.SwitchCase.SwitchCaseExemplo();
+        Estrutura_Condicionais.For_.For_();
+
     }
 }

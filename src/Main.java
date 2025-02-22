@@ -14,7 +14,7 @@ public class Main {
         //System.out.println(Estrutura_Dados.Primitivos.variavelEstatica);
         //Estrutura_Dados.Primitivos.PrimitivosExemplo();
 
-        Estrutura_Condicionais.IfElse.IfElseExemplo();
-
+        //Estrutura_Condicionais.IfElse.IfElseExemplo();
+        Estrutura_Condicionais.SwitchCase.SwitchCaseExemplo();
     }
 }

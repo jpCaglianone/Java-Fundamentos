@@ -16,7 +16,9 @@ public class Main {
 
         //Estrutura_Condicionais.IfElse.IfElseExemplo();
         //Estrutura_Condicionais.SwitchCase.SwitchCaseExemplo();
-        Estrutura_Condicionais.For_.For_();
+        //Estrutura_Condicionais.For_.For_();
+        Estrutura_Condicionais.While_.WhileExemplo();;
+
 
     }
 }

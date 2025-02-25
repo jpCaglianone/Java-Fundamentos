@@ -3,6 +3,7 @@ import Estrutura_Dados.DateTime;
 import Estrutura_Dados.ListaLinked;
 import Excecoes.MinhaExcecao;
 import Excecoes.TryCatch;
+import POO.Classes;
 
 import java.util.Scanner;
 
@@ -23,7 +24,18 @@ public class Main {
         //Estrutura_Condicionais.For_.For_();
         //Estrutura_Condicionais.While_.WhileExemplo();
 
-        TryCatch.TryCatchExemplo2();
+        //TryCatch.TryCatchExemplo2();
+
+        //<editor-fold desc="Classes">
+            Classes classe = new Classes("joao" , 31); //exemplo com constructor que obriga instancia
+            Classes classe2 = new Classes(); //exemplo com constructor sem parametros
+
+            classe2.setNome("Ana");
+            classe2.setIdade(25);
+            classe.apresentar();
+            classe2.apresentar();
+        //</editor-fold>
+
 
 
     }

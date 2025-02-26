@@ -4,6 +4,7 @@ import Estrutura_Dados.ListaLinked;
 import Excecoes.MinhaExcecao;
 import Excecoes.TryCatch;
 import POO.Classes;
+import POO.HerancaFilho;
 
 import java.util.Scanner;
 
@@ -27,16 +28,17 @@ public class Main {
         //TryCatch.TryCatchExemplo2();
 
         //<editor-fold desc="Classes">
-            Classes classe = new Classes("joao" , 31); //exemplo com constructor que obriga instancia
-            Classes classe2 = new Classes(); //exemplo com constructor sem parametros
-
-            classe2.setNome("Ana");
-            classe2.setIdade(25);
-            classe.apresentar();
-            classe2.apresentar();
+//            Classes classe = new Classes("joao" , 31); //exemplo com constructor que obriga instancia
+//            Classes classe2 = new Classes(); //exemplo com constructor sem parametros
+//
+//            classe2.setNome("Ana");
+//            classe2.setIdade(25);
+//            classe.apresentar();
+//            classe2.apresentar();
         //</editor-fold>
 
-
+        HerancaFilho herancaFilho = new HerancaFilho("Joao", 32, "programador", true);
+        herancaFilho.apresentar();
 
     }
 }

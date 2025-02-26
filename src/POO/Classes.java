@@ -24,6 +24,12 @@ public class Classes {
     // métodos representam ações que o objeto instanciado pode ter
     // objetos privados geralmente tem os atributos publicos get (para buscar o valor do atributo)
     // e set (para registrar um valor no atributo do objeto
+
+    //o encapsulamento refere-se à técnica de proteger os dados dentro de uma classe, controlando o acesso a eles.
+    //Declarar os atributos (variáveis) de uma classe como privados
+    //Fornecer métodos públicos (getters e setters) para acessar e modificar esses atributos
+    //Controlar como os dados são acessados e modificados
+
     public String getNome() {
         return nome;
     }

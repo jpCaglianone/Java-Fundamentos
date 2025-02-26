@@ -2,7 +2,7 @@ package POO;
 
 
 
-public class HerancaFilho extends HerancaPai {
+public class HerancaFilho extends HerancaPai implements InterfaceFilho {
 
     //atributo exclusivo da subclasse
     private boolean ativo;
@@ -32,6 +32,13 @@ public class HerancaFilho extends HerancaPai {
     }
     public Double salario(double valor, int horas, double fatorDesempenho) {
         return valor * horas * fatorDesempenho;
+    }
+
+
+    @Override
+    public String testeInterface(){
+
+        return "teste de interface";
     }
 
 }

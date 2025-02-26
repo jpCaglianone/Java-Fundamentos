@@ -39,6 +39,7 @@ public class Main {
 
         HerancaFilho herancaFilho = new HerancaFilho("Joao", 32, "programador", true);
         herancaFilho.apresentar();
+        System.out.println(herancaFilho.testeInterface());
 
     }
 }

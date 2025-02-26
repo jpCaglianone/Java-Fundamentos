@@ -1,7 +1,8 @@
 package POO;
 
 
-// obs, uma classe abstrata apenas pode ser herdade, ela nao pode ter objetos instanciados
+// obs, uma classe abstrata apenas pode ser herdade, ela nao pode ter objetos instanciados,
+// com isso,uma classe abstrata é uma classe que não pode ser instanciada diretamente e é projetada para ser herdada por subclasses.
 // isso nao significa que toda classe que tem herdeiros precisa ser abstrata
 
 public abstract  class HerancaPai {

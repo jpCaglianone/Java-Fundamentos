@@ -3,9 +3,13 @@ import Estrutura_Dados.DateTime;
 import Estrutura_Dados.ListaLinked;
 import Excecoes.MinhaExcecao;
 import Excecoes.TryCatch;
+import POO.Associacao;
+import POO.ClasseAuxiliar;
 import POO.Classes;
 import POO.HerancaFilho;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -37,9 +41,75 @@ public class Main {
 //            classe2.apresentar();
         //</editor-fold>
 
-        HerancaFilho herancaFilho = new HerancaFilho("Joao", 32, "programador", true);
-        herancaFilho.apresentar();
-        System.out.println(herancaFilho.testeInterface());
+        //<editor-fold desc="Heranca">
+
+//        HerancaFilho herancaFilho = new HerancaFilho("Joao", 32, "programador", true);
+//        herancaFilho.apresentar();
+//        System.out.println(herancaFilho.testeInterface());
+
+//        </editor-fold>
+
+        //<editor-fold desc="Associacao">
+
+//        Associacao associacao = new Associacao(popularList());
+//        associacao.getClasseAuxiliarList().forEach(o -> System.out.println(o.getDescricao()));
+//        System.out.println(associacao.getRegistro());
+
+        //</editor-fold>
+
+//<editor-fold desc="Associacao">
+
+
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    private static List<ClasseAuxiliar> popularList(){
+
+        List<ClasseAuxiliar> lista = new ArrayList<>(){};
+
+        ClasseAuxiliar ca1 = new ClasseAuxiliar(3,"teste 1", true, 35.23);
+        lista.add(ca1);
+        ClasseAuxiliar ca2 = new ClasseAuxiliar(4, "teste teste 2", true, 98.04);
+        lista.add(ca2);
+        ClasseAuxiliar ca3 = new ClasseAuxiliar(14, "teste teste teste 3", false, 286.74);
+        lista.add(ca3);
+
+        return lista;
+    }
+
 }

@@ -5,6 +5,8 @@ package POO;
 // private - apenas na propria classe e somente onde foi declarado
 // protected - acesso na mesma classe, subclasse e pacote e classes-filhas
 
+import java.util.*;
+
 public class Classes {
     // Atributos (variáveis de instância)
     private String nome;
@@ -49,4 +51,9 @@ public class Classes {
     public void apresentar() {
         System.out.println("Olá, eu sou " + this.nome + " e tenho " + this.idade + " anos.");
     }
+
+
+
 }
+
+
